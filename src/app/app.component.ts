@@ -12,13 +12,14 @@ import { Component, OnInit } from '@angular/core';
   <app-new-component></app-new-component> 
   <app-input [contador]="addValue"></app-input>
 <button (click)="add()">Add</button>
---> 
+
   <app-output (enviarDados)="setDados($event)"></app-output>
   <br>
   <ng-template [ngIf]="getDados">
     <h1>{{getDados.nome}}</h1>
     <h2>{{getDados.idade}}</h2>
-  </ng-template>
+  </ng-template>--> 
+  <app-food-list></app-food-list>
   <router-outlet></router-outlet>
   `
 })
