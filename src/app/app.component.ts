@@ -19,6 +19,7 @@ import { Component, OnInit } from '@angular/core';
     <h1>{{getDados.nome}}</h1>
     <h2>{{getDados.idade}}</h2>
   </ng-template>--> 
+  <app-food-add></app-food-add>
   <app-food-list></app-food-list>
   <router-outlet></router-outlet>
   `
